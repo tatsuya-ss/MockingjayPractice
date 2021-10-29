@@ -1,0 +1,34 @@
+PODS:
+  - Mockingjay (3.0.0-alpha.1):
+    - Mockingjay/Core (= 3.0.0-alpha.1)
+    - Mockingjay/XCTest (= 3.0.0-alpha.1)
+  - Mockingjay/Core (3.0.0-alpha.1):
+    - URITemplate (~> 3.0)
+  - Mockingjay/XCTest (3.0.0-alpha.1):
+    - Mockingjay/Core
+  - URITemplate (3.0.1)
+
+DEPENDENCIES:
+  - Mockingjay (from `https://github.com/kylef/Mockingjay.git`, branch `master`)
+
+SPEC REPOS:
+  trunk:
+    - URITemplate
+
+EXTERNAL SOURCES:
+  Mockingjay:
+    :branch: master
+    :git: https://github.com/kylef/Mockingjay.git
+
+CHECKOUT OPTIONS:
+  Mockingjay:
+    :commit: b88c9dce2b7561cccbf35e2882b3c71a2efa387a
+    :git: https://github.com/kylef/Mockingjay.git
+
+SPEC CHECKSUMS:
+  Mockingjay: 97656c6f59879923976a0a52ef09da45756cca82
+  URITemplate: 5f5a79f3e384884102c4e6b3325d159c20a8035a
+
+PODFILE CHECKSUM: 2f727b90da50c6aa4f85a433c9309a4a7cd9f5b3
+
+COCOAPODS: 1.10.2

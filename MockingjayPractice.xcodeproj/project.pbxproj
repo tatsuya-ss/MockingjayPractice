@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7531406A2728BABC0023C5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753140692728BABC0023C5AA /* AppDelegate.swift */; };
+		7531406C2728BABC0023C5AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531406B2728BABC0023C5AA /* SceneDelegate.swift */; };
+		7531406E2728BABC0023C5AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531406D2728BABC0023C5AA /* ViewController.swift */; };
+		753140712728BABC0023C5AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7531406F2728BABC0023C5AA /* Main.storyboard */; };
+		753140732728BABF0023C5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753140722728BABF0023C5AA /* Assets.xcassets */; };
+		753140762728BABF0023C5AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753140742728BABF0023C5AA /* LaunchScreen.storyboard */; };
+		753140812728BAC00023C5AA /* MockingjayPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753140802728BAC00023C5AA /* MockingjayPracticeTests.swift */; };
+		7531408B2728BAC00023C5AA /* MockingjayPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531408A2728BAC00023C5AA /* MockingjayPracticeUITests.swift */; };
+		7531408D2728BAC00023C5AA /* MockingjayPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531408C2728BAC00023C5AA /* MockingjayPracticeUITestsLaunchTests.swift */; };
+		7531409C2728BE9B0023C5AA /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531409B2728BE9B0023C5AA /* GitHubRepository.swift */; };
+		7531409E2728BEB10023C5AA /* GitHubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531409D2728BEB10023C5AA /* GitHubAPIClient.swift */; };
+		753140A02728BEBD0023C5AA /* GitHubRepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7531409F2728BEBD0023C5AA /* GitHubRepositoryManager.swift */; };
+		9137D37AF4065316D7661594 /* Pods_MockingjayPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A310DC988F1825C953ADD48E /* Pods_MockingjayPractice.framework */; };
+		ADFB19FB002A7BFC09CECAEF /* Pods_MockingjayPractice_MockingjayPracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E6AAD8664A054649165AB9 /* Pods_MockingjayPractice_MockingjayPracticeUITests.framework */; };
+		BF19FB7B6CBC69012A94163E /* Pods_MockingjayPracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7F0315F0BC0510046F1DB /* Pods_MockingjayPracticeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7531407D2728BAC00023C5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7531405E2728BABC0023C5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 753140652728BABC0023C5AA;
+			remoteInfo = MockingjayPractice;
+		};
+		753140872728BAC00023C5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7531405E2728BABC0023C5AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 753140652728BABC0023C5AA;
+			remoteInfo = MockingjayPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B436BAB08324DCE9BEF46B0 /* Pods-MockingjayPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjayPractice.debug.xcconfig"; path = "Target Support Files/Pods-MockingjayPractice/Pods-MockingjayPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		3A5F862F2BBE7F5DC263FC75 /* Pods-MockingjayPracticeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjayPracticeTests.debug.xcconfig"; path = "Target Support Files/Pods-MockingjayPracticeTests/Pods-MockingjayPracticeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40E6AAD8664A054649165AB9 /* Pods_MockingjayPractice_MockingjayPracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingjayPractice_MockingjayPracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D7F0315F0BC0510046F1DB /* Pods_MockingjayPracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingjayPracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753140662728BABC0023C5AA /* MockingjayPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockingjayPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		753140692728BABC0023C5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7531406B2728BABC0023C5AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7531406D2728BABC0023C5AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		753140702728BABC0023C5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		753140722728BABF0023C5AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		753140752728BABF0023C5AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		753140772728BABF0023C5AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7531407C2728BAC00023C5AA /* MockingjayPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingjayPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		753140802728BAC00023C5AA /* MockingjayPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingjayPracticeTests.swift; sourceTree = "<group>"; };
+		753140862728BAC00023C5AA /* MockingjayPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockingjayPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7531408A2728BAC00023C5AA /* MockingjayPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingjayPracticeUITests.swift; sourceTree = "<group>"; };
+		7531408C2728BAC00023C5AA /* MockingjayPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingjayPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7531409B2728BE9B0023C5AA /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		7531409D2728BEB10023C5AA /* GitHubAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIClient.swift; sourceTree = "<group>"; };
+		7531409F2728BEBD0023C5AA /* GitHubRepositoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepositoryManager.swift; sourceTree = "<group>"; };
+		A310DC988F1825C953ADD48E /* Pods_MockingjayPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MockingjayPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA29FAA05916F621D424507F /* Pods-MockingjayPractice-MockingjayPracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjayPractice-MockingjayPracticeUITests.debug.xcconfig"; path = "Target Support Files/Pods-MockingjayPractice-MockingjayPracticeUITests/Pods-MockingjayPractice-MockingjayPracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D77361378E91591E4955723D /* Pods-MockingjayPracticeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjayPracticeTests.release.xcconfig"; path = "Target Support Files/Pods-MockingjayPracticeTests/Pods-MockingjayPracticeTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE979E409C16E6ECC52A5814 /* Pods-MockingjayPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjayPractice.release.xcconfig"; path = "Target Support Files/Pods-MockingjayPractice/Pods-MockingjayPractice.release.xcconfig"; sourceTree = "<group>"; };
+		EFE572DA8CF46E5A9A83618C /* Pods-MockingjayPractice-MockingjayPracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MockingjayPractice-MockingjayPracticeUITests.release.xcconfig"; path = "Target Support Files/Pods-MockingjayPractice-MockingjayPracticeUITests/Pods-MockingjayPractice-MockingjayPracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753140632728BABC0023C5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9137D37AF4065316D7661594 /* Pods_MockingjayPractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753140792728BAC00023C5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF19FB7B6CBC69012A94163E /* Pods_MockingjayPracticeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753140832728BAC00023C5AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB19FB002A7BFC09CECAEF /* Pods_MockingjayPractice_MockingjayPracticeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7531405D2728BABC0023C5AA = {
+			isa = PBXGroup;
+			children = (
+				753140682728BABC0023C5AA /* MockingjayPractice */,
+				7531407F2728BAC00023C5AA /* MockingjayPracticeTests */,
+				753140892728BAC00023C5AA /* MockingjayPracticeUITests */,
+				753140672728BABC0023C5AA /* Products */,
+				AA92C3BE0067B7D1FF47BEE6 /* Pods */,
+				AA0F6E71D3D78ED811EC2ED1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		753140672728BABC0023C5AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753140662728BABC0023C5AA /* MockingjayPractice.app */,
+				7531407C2728BAC00023C5AA /* MockingjayPracticeTests.xctest */,
+				753140862728BAC00023C5AA /* MockingjayPracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753140682728BABC0023C5AA /* MockingjayPractice */ = {
+			isa = PBXGroup;
+			children = (
+				7531409A2728BE860023C5AA /* GitHub */,
+				753140692728BABC0023C5AA /* AppDelegate.swift */,
+				7531406B2728BABC0023C5AA /* SceneDelegate.swift */,
+				7531406D2728BABC0023C5AA /* ViewController.swift */,
+				7531406F2728BABC0023C5AA /* Main.storyboard */,
+				753140722728BABF0023C5AA /* Assets.xcassets */,
+				753140742728BABF0023C5AA /* LaunchScreen.storyboard */,
+				753140772728BABF0023C5AA /* Info.plist */,
+			);
+			path = MockingjayPractice;
+			sourceTree = "<group>";
+		};
+		7531407F2728BAC00023C5AA /* MockingjayPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				753140802728BAC00023C5AA /* MockingjayPracticeTests.swift */,
+			);
+			path = MockingjayPracticeTests;
+			sourceTree = "<group>";
+		};
+		753140892728BAC00023C5AA /* MockingjayPracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7531408A2728BAC00023C5AA /* MockingjayPracticeUITests.swift */,
+				7531408C2728BAC00023C5AA /* MockingjayPracticeUITestsLaunchTests.swift */,
+			);
+			path = MockingjayPracticeUITests;
+			sourceTree = "<group>";
+		};
+		7531409A2728BE860023C5AA /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				7531409B2728BE9B0023C5AA /* GitHubRepository.swift */,
+				7531409D2728BEB10023C5AA /* GitHubAPIClient.swift */,
+				7531409F2728BEBD0023C5AA /* GitHubRepositoryManager.swift */,
+			);
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		AA0F6E71D3D78ED811EC2ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A310DC988F1825C953ADD48E /* Pods_MockingjayPractice.framework */,
+				40E6AAD8664A054649165AB9 /* Pods_MockingjayPractice_MockingjayPracticeUITests.framework */,
+				50D7F0315F0BC0510046F1DB /* Pods_MockingjayPracticeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA92C3BE0067B7D1FF47BEE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B436BAB08324DCE9BEF46B0 /* Pods-MockingjayPractice.debug.xcconfig */,
+				EE979E409C16E6ECC52A5814 /* Pods-MockingjayPractice.release.xcconfig */,
+				BA29FAA05916F621D424507F /* Pods-MockingjayPractice-MockingjayPracticeUITests.debug.xcconfig */,
+				EFE572DA8CF46E5A9A83618C /* Pods-MockingjayPractice-MockingjayPracticeUITests.release.xcconfig */,
+				3A5F862F2BBE7F5DC263FC75 /* Pods-MockingjayPracticeTests.debug.xcconfig */,
+				D77361378E91591E4955723D /* Pods-MockingjayPracticeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753140652728BABC0023C5AA /* MockingjayPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753140902728BAC00023C5AA /* Build configuration list for PBXNativeTarget "MockingjayPractice" */;
+			buildPhases = (
+				9CDEA81D6D1BCE7AA8E7B6C1 /* [CP] Check Pods Manifest.lock */,
+				753140622728BABC0023C5AA /* Sources */,
+				753140632728BABC0023C5AA /* Frameworks */,
+				753140642728BABC0023C5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockingjayPractice;
+			productName = MockingjayPractice;
+			productReference = 753140662728BABC0023C5AA /* MockingjayPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7531407B2728BAC00023C5AA /* MockingjayPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753140932728BAC00023C5AA /* Build configuration list for PBXNativeTarget "MockingjayPracticeTests" */;
+			buildPhases = (
+				BF95FFDE712C3704B57B14B2 /* [CP] Check Pods Manifest.lock */,
+				753140782728BAC00023C5AA /* Sources */,
+				753140792728BAC00023C5AA /* Frameworks */,
+				7531407A2728BAC00023C5AA /* Resources */,
+				1CDB385C89F521DDF6B25493 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7531407E2728BAC00023C5AA /* PBXTargetDependency */,
+			);
+			name = MockingjayPracticeTests;
+			productName = MockingjayPracticeTests;
+			productReference = 7531407C2728BAC00023C5AA /* MockingjayPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		753140852728BAC00023C5AA /* MockingjayPracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753140962728BAC00023C5AA /* Build configuration list for PBXNativeTarget "MockingjayPracticeUITests" */;
+			buildPhases = (
+				2619215BA21ACB48B9141B79 /* [CP] Check Pods Manifest.lock */,
+				753140822728BAC00023C5AA /* Sources */,
+				753140832728BAC00023C5AA /* Frameworks */,
+				753140842728BAC00023C5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				753140882728BAC00023C5AA /* PBXTargetDependency */,
+			);
+			name = MockingjayPracticeUITests;
+			productName = MockingjayPracticeUITests;
+			productReference = 753140862728BAC00023C5AA /* MockingjayPracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7531405E2728BABC0023C5AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					753140652728BABC0023C5AA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7531407B2728BAC00023C5AA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 753140652728BABC0023C5AA;
+					};
+					753140852728BAC00023C5AA = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 753140652728BABC0023C5AA;
+					};
+				};
+			};
+			buildConfigurationList = 753140612728BABC0023C5AA /* Build configuration list for PBXProject "MockingjayPractice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7531405D2728BABC0023C5AA;
+			productRefGroup = 753140672728BABC0023C5AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753140652728BABC0023C5AA /* MockingjayPractice */,
+				7531407B2728BAC00023C5AA /* MockingjayPracticeTests */,
+				753140852728BAC00023C5AA /* MockingjayPracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753140642728BABC0023C5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753140762728BABF0023C5AA /* LaunchScreen.storyboard in Resources */,
+				753140732728BABF0023C5AA /* Assets.xcassets in Resources */,
+				753140712728BABC0023C5AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7531407A2728BAC00023C5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753140842728BAC00023C5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CDB385C89F521DDF6B25493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockingjayPracticeTests/Pods-MockingjayPracticeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MockingjayPracticeTests/Pods-MockingjayPracticeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MockingjayPracticeTests/Pods-MockingjayPracticeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2619215BA21ACB48B9141B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockingjayPractice-MockingjayPracticeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CDEA81D6D1BCE7AA8E7B6C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockingjayPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF95FFDE712C3704B57B14B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MockingjayPracticeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753140622728BABC0023C5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7531409E2728BEB10023C5AA /* GitHubAPIClient.swift in Sources */,
+				7531409C2728BE9B0023C5AA /* GitHubRepository.swift in Sources */,
+				7531406E2728BABC0023C5AA /* ViewController.swift in Sources */,
+				7531406A2728BABC0023C5AA /* AppDelegate.swift in Sources */,
+				753140A02728BEBD0023C5AA /* GitHubRepositoryManager.swift in Sources */,
+				7531406C2728BABC0023C5AA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753140782728BAC00023C5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753140812728BAC00023C5AA /* MockingjayPracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		753140822728BAC00023C5AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7531408B2728BAC00023C5AA /* MockingjayPracticeUITests.swift in Sources */,
+				7531408D2728BAC00023C5AA /* MockingjayPracticeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7531407E2728BAC00023C5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 753140652728BABC0023C5AA /* MockingjayPractice */;
+			targetProxy = 7531407D2728BAC00023C5AA /* PBXContainerItemProxy */;
+		};
+		753140882728BAC00023C5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 753140652728BABC0023C5AA /* MockingjayPractice */;
+			targetProxy = 753140872728BAC00023C5AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7531406F2728BABC0023C5AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753140702728BABC0023C5AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		753140742728BABF0023C5AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753140752728BABF0023C5AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7531408E2728BAC00023C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7531408F2728BAC00023C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753140912728BAC00023C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B436BAB08324DCE9BEF46B0 /* Pods-MockingjayPractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MockingjayPractice/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatsuo.MockingjayPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		753140922728BAC00023C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE979E409C16E6ECC52A5814 /* Pods-MockingjayPractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MockingjayPractice/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatsuo.MockingjayPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		753140942728BAC00023C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A5F862F2BBE7F5DC263FC75 /* Pods-MockingjayPracticeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatsuo.MockingjayPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockingjayPractice.app/MockingjayPractice";
+			};
+			name = Debug;
+		};
+		753140952728BAC00023C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77361378E91591E4955723D /* Pods-MockingjayPracticeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatsuo.MockingjayPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockingjayPractice.app/MockingjayPractice";
+			};
+			name = Release;
+		};
+		753140972728BAC00023C5AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA29FAA05916F621D424507F /* Pods-MockingjayPractice-MockingjayPracticeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatsuo.MockingjayPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockingjayPractice;
+			};
+			name = Debug;
+		};
+		753140982728BAC00023C5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE572DA8CF46E5A9A83618C /* Pods-MockingjayPractice-MockingjayPracticeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N53995CJPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatsuo.MockingjayPracticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MockingjayPractice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753140612728BABC0023C5AA /* Build configuration list for PBXProject "MockingjayPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7531408E2728BAC00023C5AA /* Debug */,
+				7531408F2728BAC00023C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753140902728BAC00023C5AA /* Build configuration list for PBXNativeTarget "MockingjayPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753140912728BAC00023C5AA /* Debug */,
+				753140922728BAC00023C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753140932728BAC00023C5AA /* Build configuration list for PBXNativeTarget "MockingjayPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753140942728BAC00023C5AA /* Debug */,
+				753140952728BAC00023C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753140962728BAC00023C5AA /* Build configuration list for PBXNativeTarget "MockingjayPracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753140972728BAC00023C5AA /* Debug */,
+				753140982728BAC00023C5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7531405E2728BABC0023C5AA /* Project object */;
+}
